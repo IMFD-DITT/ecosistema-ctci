@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Fuentes de información, códigos y base de datos con los que se realiza el análisis de las contribuciones del Ecosistema CTCI en el área de la Salud en Chile (Capítulo II del informe). El análisis se divide en 2 subsecciones:
+Fuentes de información, códigos y base de datos con los que se realiza el análisis de las contribuciones del Ecosistema CTCI en el área de la Salud en Chile (Capítulo II del informe). El análisis se divide en 2 secciones:
 
 - Análisis de publicaciones científicas
 - Análisis de proyectos
@@ -11,11 +11,29 @@ La metodología adoptada, en ambas subsecciones, incorpora criterios definidos p
 
 ## Estructura
 
-Los archivos se agrupan en 3 subcarpetas principales:
+Los archivos se agrupan en 2 carpetas principales que representan cada una de las secciones del análisis:
 
-- Notebooks: Contiene los archivos _.ipynb_ contenedores de los códigos empleados para manipular los datos y generar imágenes.
-- Datos: Contiene archivos de bases de datos utilizadas en los notebooks.
-- Gráficos: Contiene las imágenes generadas a través de los notebooks.
+    .
+    ├── Análisis de publicaciones científicas
+    │   └── ... 
+    │
+    └── Análisis de proyectos
+        └── ... 
+
+Dentro de cada carpeta se encontrarán 3 subcarpetas:
+
+    .
+    ├── ...
+    │    ├── Datos
+    │    │
+    │    ├── Notebooks
+    │    │
+    │    └── Gráficos
+    ... 
+
+donde **Datos** contiene archivos de bases de datos utilizadas en los notebooks, **Notebooks** contiene los archivos _.ipynb_ contenedores de los códigos empleados para manipular los datos y generar imágenes, y **Gráficos** contiene las imágenes generadas a través de los notebooks.
+
+Cabe destacar que las imágenes de redes de coautoría de publicaciones científicas, presentes en el informe, no se encuentran en este repositorio. Esto debido a que fueron generadas a través de VOSviewer, y no por medio de códigos presentes en los notebooks. Sin embargo, si se encuentran dentro de _Análisis de publicaciones científicas/Datos_ los datos empleados para generar aquellas redes.
 
 ## Autores
 
