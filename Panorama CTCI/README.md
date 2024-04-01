@@ -37,7 +37,7 @@ Dentro de cada carpeta se encontrarán 3 subcarpetas:
     │    └── Gráficos
     ... 
 
-donde **Datos** contiene archivos de bases de datos utilizadas en los notebooks, **Notebooks** contiene los archivos _.ipynb_ contenedores de los códigos empleados para manipular los datos y generar imágenes, y **Gráficos** contiene las imágenes generadas a través de los notebooks.
+donde **Datos** contiene archivos de bases de datos utilizadas en los notebooks, **Notebooks** contiene los archivos _.ipynb_ contenedores de los códigos empleados para manipular los datos y generar imágenes, y **Gráficos** contiene las imágenes generadas a través de los notebooks. Es de relevancia destacar que los gráficos generados se encuentran tanto en formato _.png_ así como _.svg_, lo cual garantiza una buena resolución de las imágenes.
 
 Por otro lado, se encuentran 2 archivos de tipo _.xlsx_ (hojas de cálculo). Estos son:
 
