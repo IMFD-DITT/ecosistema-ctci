@@ -28,12 +28,14 @@ Los archivos se agrupan en 5 carpetas principales que representan cada una de la
 
 Dentro de cada carpeta se encontrarán 3 subcarpetas:
 
-    ...
-    ├── Datos
-    │
-    ├── Notebooks 
-    │           
-    └── Gráficos 
+    .
+    ├── ...
+    │    ├── Datos
+    │    │
+    │    ├── Notebooks
+    │    │
+    │    └── Gráficos
+    ... 
 
 donde **Datos** contiene archivos de bases de datos utilizadas en los notebooks, **Notebooks** contiene los archivos _.ipynb_ contenedores de los códigos empleados para manipular los datos y generar imágenes, y **Gráficos** contiene las imágenes generadas a través de los notebooks.
 
