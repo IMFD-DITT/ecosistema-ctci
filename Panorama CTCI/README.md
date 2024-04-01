@@ -13,6 +13,7 @@ Fuentes de información, códigos y base de datos con los que se realiza el aná
 ## Estructura
 
 Los archivos se agrupan en 5 carpetas principales que representan cada una de las secciones del análisis:
+
     .
     ├── Contexto nacional
     │   └── ... 
@@ -26,6 +27,7 @@ Los archivos se agrupan en 5 carpetas principales que representan cada una de la
         └── ... 
 
 Dentro de cada carpeta se encontrarán 3 subcarpetas:
+
     ...
     ├── Datos
     │
