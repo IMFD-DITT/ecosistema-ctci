@@ -18,6 +18,9 @@ El notebook _Análisis\_publicaciones.ipynb_ está estructurado en 4 secciones p
 - _CANCER_
 - _DIABETES_
 - _CARDIOVASCULAR DISEASE_
-en cada sección 
 
-Y finalmente tiene una sección denominada _GENERAL_
+en cada sección se realiza una petición a OpenAlex para obtener los datos solicitados, según los parámetros definidos y los conceptos a buscar.
+
+Luego se realizan diferentes análisis, tanto como el conteo de la cantidad de artículos publicados por año relacionados al tema específico, así como también el análisis de las keywords más frecuentes, y el conteo del tipo de instituciones involucradas en las publicaciones.
+
+Y finalmente tiene una sección denominada _GENERAL_, en la cual se realiza un conteo de las publicaciones totales para cada temática analizada.
